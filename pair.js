@@ -59,7 +59,7 @@ var randomItem = selectRandomItem(items);
                     let rf = __dirname + `/temp/${id}/creds.json`;
                     function generateRandomText() {
                         const prefix = "3EB";
-                        const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+                        const characters = "ANUWH-MD_BCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
                         let randomText = prefix;
                         for (let i = prefix.length; i < 22; i++) {
                             const randomIndex = Math.floor(Math.random() * characters.length);
